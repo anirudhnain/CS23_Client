@@ -1,0 +1,2 @@
+mvn clean compile assembly:single
+spark-submit --class helloWorld --master local target/mavenSpark-1.0-SNAPSHOT-jar-with-dependencies.jar
